@@ -1,0 +1,19 @@
+/*---------------------------------- fonts ----------------------------------*/
+@font-face {
+  font-family: "GoogleSans-Bold";
+  src: url("./fonts/GoogleSans-Bold.ttf");
+}
+@font-face {
+  font-family: "GoogleSans-Regular";
+  src: url("./fonts/GoogleSans-Regular.ttf");
+}
+
+.App {
+  font-family: "GoogleSans-Regular";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  background: linear-gradient(45deg,#FFF5E9,#F9E0E3);
+}
